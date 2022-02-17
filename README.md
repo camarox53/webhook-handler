@@ -72,5 +72,5 @@ $ docker ps
 ```sh
 $ docker exec -it <CONTAINER_ID HERE> /bin/bash
 ```
-
+.
 
