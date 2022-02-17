@@ -44,15 +44,15 @@ $ docker pull cmorris/webhook-handler:latest
 
 5. Start Container 
 ```sh
-$ docker run cmorris/webhook-handler:latest -d 
+$ docker run -d cmorris/webhook-handler:latest 
 ```
 
 
 ## Optional Parameters: 
 
 Common Optional Parameters for Docker Run Command: 
-* `-p 8080:80` Uses port `8080` for the webhook service on the host machine rather 
-  than 80. Change `8080` to whatever port you want to use on the host. 
+* `-p 8081:8080` Uses port `8081` for the webhook service on the host machine rather 
+  than 8080. Change `8081` to whatever port you want to use on the host. 
 
 * `-v test/:/data` Mounts a directory called `test` in your current working directory 
   to into the container at `/data` (location of the hook.json file). This can be used to 
