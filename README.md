@@ -19,7 +19,7 @@ Check out our tutorial video on Youtube at: https://www.youtube.com/channel/UCHt
 
 1. Install Docker  
 ```sh
-$ sudo apt update && apt install docker.io -y 
+$ sudo apt update && sudo apt install docker.io -y 
 ```
 
 2. Start Docker Daemon 
